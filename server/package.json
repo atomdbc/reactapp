@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "a simple react chat app with node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomdbc/react-chat.git"
+  },
+  "keywords": [
+    "react",
+    "socket",
+    "io",
+    "nodejs",
+    "atomdbc",
+    "❤️"
+  ],
+  "author": "samcraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomdbc/react-chat/issues"
+  },
+  "homepage": "https://github.com/atomdbc/react-chat#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1",
+    "socket.io": "^4.7.5"
+  }
+}
